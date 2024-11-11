@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab13Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { _ ->
-                    VisibilityAnimation()
+                    ColorChangeDemo()
                 }
             }
         }
